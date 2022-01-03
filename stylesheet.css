@@ -1,0 +1,164 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Modern No. 20;
+}
+
+header {
+    height: 250px;
+    overflow: hidden;
+}
+
+#headerimg img {
+    width:1000px;
+}
+
+nav {
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 5%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul li button:hover img{
+    opacity: 0.5;
+}
+nav ul li img {
+    width: 150px;
+    height: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: -15px;
+}
+
+#main {
+    text-align: center;
+}
+
+
+/*accueil*/
+
+#main .left {
+    margin-left: 5%;
+    width: 40%;
+    float: left;
+}
+
+#mainImg {
+    text-align: center;
+    max-width: 100%;
+    margin-top: -8%;
+    margin-bottom: 50px;
+}
+
+#main .right {
+    margin: 5% auto 10% 55%;
+    width: 40%;
+}
+
+
+/*images*/
+
+#gallerie {
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 25%;
+    height: 300px;
+}
+
+.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
+    margin-bottom: 25px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 175px;
+}
+
+.caption {
+    text-align: center;
+    padding: 5px;
+}
+
+#magic004
+{
+    height: 180px;
+    width: 210px;
+
+}
+
+
+/*contact*/
+
+#form {
+    background-color: white;
+    box-shadow: 0 4px 8px 4px lightgray;
+    width: 60%;
+    padding-top: 30px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+input {
+    width: 150px;
+}
+
+#adresse {
+    width: 72%;
+}
+
+.textup {
+    vertical-align: top;
+}
+
+textarea {
+    width: 72%;
+    resize: none;
+}
+
+#divBtn {
+    text-align: center;
+}
+
+#divBtn button {
+    margin: 30px;
+}
+
+/*pied de page*/
+
+footer {
+    background: #eda84e;
+    position: absolute;
+    width: 1000px;
+    color: white;
+    height: 25px;
+}
