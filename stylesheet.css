@@ -1,9 +1,10 @@
 body {
-    width: 1000px;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
-    font-family: Modern No. 20;
-    background:url("images/Blue.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background:url("images/Blue.jpg")  no-repeat;
+    background-size: 100% 125%;
 }
 
 header {
@@ -12,13 +13,13 @@ header {
 }
 
 #headerimg img {
-    width:1000px;
+    width: 100%;
 }
 
 nav {
     position: absolute;
     margin-top: 185px;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 nav ul {
@@ -42,8 +43,7 @@ nav ul li img {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
-    margin-left: -15px;
+    margin-right: 1.em;
 }
 
 #main {
@@ -162,4 +162,5 @@ footer {
     width: 1000px;
     color: white;
     height: 25px;
+    margin-top: 2.em;
 }
